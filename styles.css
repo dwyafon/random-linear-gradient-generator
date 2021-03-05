@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(45deg, #fa744f 30%, #16817a 100%);
+}
+
+button {
+  background: none;
+  border: 1px solid #fff;
+  padding: 15px 25px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 1px 1px 5px rgb(0,0,0,0.4);
+
+}
+
+.printHex h2 {
+  font-weight: 300;
+  color: #fff;
+  max-width: 600px;
+}
